@@ -1,0 +1,24 @@
+<!--
+<ul>
+  <li><a href="/contacts">View all contacts</a></li> -->
+<main>
+
+    <div>There are <span><%= Contact.count %></span> contacts</div>
+  <% Contact.all.each do |contact| %>
+      <ul class="contact_list" >
+
+        <li><%= contact.email %></li>
+        <li><%= contact.first_name %> <%= contact.last_name %></li>
+        <li></li>
+        <li><a href="/contacts/<%= contact.id %>/edit">Edit</a>|<a href="/contacts/<%= contact.id %>">Delete</a><li>
+
+      </ul>
+  <% end %>
+
+</main>
+  <!-- <li><a href="/contacts/new">Add a new contacts</a></li>
+  <li><a href="/contacts">Modify an existing contact</a></li>
+  <li><a href="/contacts">Delete a contact</a></li>
+  <li><a href="/contacts">Search by attribute</a></li>
+  <li><a href="/contacts">Exits</a></li>
+</ul> -->

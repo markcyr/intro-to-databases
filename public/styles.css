@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+font-family: sans-serif;
+box-sizing: border-box;
+        }
+
+html {
+
+      list-style-type: none;
+
+}
+h1 {
+    background-color: black;
+    color: white;
+    border-color: black;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .contact_list {
+      background-color: #00ecd3;
+      color: black;
+      list-style-type: none;
+      margin: 20px;
+    }
+nav ul {
+      background-color: grey;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+        list-style-type: none;
+  }
+
+  nav a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+
+
+/*
+  .navul {
+      background-color: grey;
+      color: white;
+      text-align: center;
+      margin: 1px;
+      list-style-type: none;
+        }*/
+main {
+      margin: 10px;
+}
+
+div {
+  background-color: #ff7063;
+  margin: 20px;
+  padding: 20px;
+}
+}
+span {
+    border-bottom: 5px solid grey;
+}
+
+footer {
+    background-color: black;
+    color : white;
+    text-align: center;
+}
